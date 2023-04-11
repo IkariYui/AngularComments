@@ -1,0 +1,16 @@
+{
+    "users": [
+        { "name": "andres felipe", "lastName": "tejada", "edad": 33, "associatedRole": 1 },
+        { "name": "Juan", "lastName": "Cuaras", "edad": 23, "associatedRole": 2  }
+        
+    ],
+    "roles": [
+        { "idRole": 1, "roleName": "admin" },
+        { "idRole": 2, "roleName": "user" }
+        
+    ],
+    "permissions": [
+        { "componentName": "ver-comentario", "idRole": 1 },
+        { "componentName": "agregar-editar-comentario", "idRole": 2 }
+    ]
+}

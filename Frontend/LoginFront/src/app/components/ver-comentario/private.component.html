@@ -1,0 +1,12 @@
+<div>
+    <img class="imgBanner" [src]="imgBanner" alt="">
+    <div class="commentInfo" *ngIf="comentario !== undefined">
+        <h3>{{comentario.titulo}}</h3>
+            <h5>{{comentario.texto}}</h5>
+        <ul>
+            <li>{{comentario.creador}}</li>
+            <li>{{comentario.fechaCreacion |date:'dd/MM/yyyy'}}</li>
+            <li><button [routerLink]="['/http://localhost:4200/']" class="btn btn-primary btn-sm float-center">Volver</button></li>
+        </ul>    
+    </div>
+</div>   

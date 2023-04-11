@@ -1,0 +1,9 @@
+.imgBanner{
+    background-size: cover;
+    width: 90%;
+    height: 390px;
+}
+
+.commentInfo{
+    background-color: rgb(246, 246, 246);
+}
